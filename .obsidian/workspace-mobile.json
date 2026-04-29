@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "高数/洛必达法则.md",
+                "file": "4.29.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "洛必达法则"
+              "title": "4.29"
             }
           }
         ]
@@ -182,13 +182,13 @@
   },
   "active": "2eb773b56f400db4",
   "lastOpenFiles": [
-    "高数/函数的极限.md",
+    "未命名.md",
+    "未命名.canvas",
     "高数/洛必达法则.md",
+    "高数/函数的极限.md",
     "4.29.md",
     "高数/极限.md",
-    "未命名.canvas",
     "高数/第六讲：中值定理、微分等式与微分不等式.md",
-    "未命名.md",
     "test.md",
     "单词/未命名.canvas",
     "高数",
