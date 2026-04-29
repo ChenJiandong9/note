@@ -1,0 +1,39 @@
+{
+  "_version": 1,
+  "debugLogging": false,
+  "debugChunkLogging": false,
+  "useNativeFetch": false,
+  "providers": [
+    {
+      "id": "id-1777455090808",
+      "name": "ZhiPu",
+      "apiKey": "680d65e11b4044f6b59fff2017ae9173.yhBe5PRU2ZPvatBm",
+      "url": "https://open.bigmodel.cn/api/paas/v4",
+      "type": "openai",
+      "model": "glm-4.7",
+      "availableModels": [
+        "glm-4.5",
+        "glm-4.5-air",
+        "glm-4.6",
+        "glm-4.7",
+        "glm-5",
+        "glm-5-turbo",
+        "glm-5.1"
+      ],
+      "modelCapabilities": {
+        "glm-4.6": {
+          "embedding": false,
+          "text": true,
+          "tools": true,
+          "vision": true
+        },
+        "glm-4.7": {
+          "embedding": false,
+          "text": true,
+          "tools": true,
+          "vision": true
+        }
+      }
+    }
+  ]
+}
