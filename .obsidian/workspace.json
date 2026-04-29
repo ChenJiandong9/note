@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d79161853d7b5493",
+        "id": "17cd96d07c435fc9",
         "type": "tabs",
         "children": [
           {
-            "id": "081f5d8cbfa11a93",
+            "id": "4bd43f9d9082d1de",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "高数/洛必达法则.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "洛必达法则"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "高数/洛必达法则.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "洛必达法则 的反向链接列表"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "高数/洛必达法则.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "洛必达法则 的出链列表"
             }
           },
           {
@@ -150,20 +156,31 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "高数/洛必达法则.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "洛必达法则 的大纲"
+            }
+          },
+          {
+            "id": "424144d5589d1693",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,9 +191,24 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "081f5d8cbfa11a93",
-  "lastOpenFiles": []
+  "active": "4bd43f9d9082d1de",
+  "lastOpenFiles": [
+    "高数资料/linear-algebra/knowledge/5-similar/similar.tex",
+    "高数资料/linear-algebra/knowledge/5-similar/similar.pdf",
+    "高数资料/linear-algebra/knowledge/6-quadratic-form/quadratic-form.tex",
+    "高数资料/linear-algebra/knowledge/6-quadratic-form/quadratic-form.pdf",
+    "高数资料/linear-algebra/knowledge/4-linear-equations-system/linear-equations-system.tex",
+    "高数资料/linear-algebra/knowledge/4-linear-equations-system/linear-equations-system.pdf",
+    "高数资料/linear-algebra/knowledge/3-vector/vector.tex",
+    "高数资料/linear-algebra/knowledge/3-vector/vector.pdf",
+    "高数资料/linear-algebra/knowledge/2-matrix/matrix.tex",
+    "高数资料/linear-algebra/knowledge/2-matrix/matrix.pdf",
+    "高数资料/linear-algebra/exercise/6-quadratic-form/quadratic-form.tex",
+    "高数/洛必达法则.md",
+    "高数/第六讲：中值定理、微分等式与微分不等式.md"
+  ]
 }
