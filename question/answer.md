@@ -40,3 +40,34 @@
 | **可导与可微** | **充要条件 (等价)** | **必要不充分条件** |
 | **可导与连续** | **可导必连续** | **不一定连续 (极重要！)** |
 | **可微与连续** | **可微必连续** | **可微必连续** |
+
+---
+
+## 提问 3：为什么反函数的二阶导不能直接对 $x$ 求导？
+
+### 1. 核心矛盾：自变量的不同
+> [!danger] 变量错位
+> - 对于原函数 $y=f(x)$，自变量是 **$x$**。
+> - 对于反函数 $x=f^{-1}(y)$，自变量是 **$y$**。
+> **二阶导数的定义**是：对自变量再求一次导。因此反函数的二阶导必须是 **对 $y$ 求导**，即 $\frac{\mathrm{d}^2x}{\mathrm{d}y^2}$，而不能直接对 $x$ 求导。
+
+### 2. 链式法则的推导过程
+如果我们想用关于 $x$ 的表达式来计算反函数的二阶导，必须使用**链式法则**进行变量转换：
+
+已知一阶导数：$\frac{\mathrm{d}x}{\mathrm{d}y} = \frac{1}{y'}$
+
+求二阶导（对 $y$ 求导）：
+$$ \frac{\mathrm{d}^2x}{\mathrm{d}y^2} = \frac{\mathrm{d}}{\mathrm{d}y} \left( \frac{\mathrm{d}x}{\mathrm{d}y} \right) $$
+
+由于 $\frac{\mathrm{d}x}{\mathrm{d}y}$ 通常是关于 $x$ 的函数，我们利用 $\frac{\mathrm{d}}{\mathrm{d}y} = \frac{\mathrm{d}}{\mathrm{d}x} \cdot \frac{\mathrm{d}x}{\mathrm{d}y}$：
+$$ \frac{\mathrm{d}^2x}{\mathrm{d}y^2} = \left[ \frac{\mathrm{d}}{\mathrm{d}x} \left( \frac{1}{y'} \right) \right] \cdot \frac{\mathrm{d}x}{\mathrm{d}y} $$
+$$ = \left( -\frac{y''}{(y')^2} \right) \cdot \frac{1}{y'} = -\frac{y''}{(y')^3} $$
+
+### 3. 直观理解
+> [!important] 结论总结
+> - 如果你只求 $\frac{\mathrm{d}}{\mathrm{d}x}(\frac{1}{y'})$，你得到的是“反函数的一阶导对 $x$ 的变化率”。
+> - 但反函数的二阶导要求的是“反函数的一阶导对 **$y$** 的变化率”。
+> - 因为 $\mathrm{d}y = y' \mathrm{d}x$，所以这两个变化率之间差了一个系数 $y'$（体现在分母从平方变成了立方）。
+
+> [!tip] 记忆口诀
+> **反函数求导，变量要对口；跨变量求导，链式跟在后。**
